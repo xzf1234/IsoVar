@@ -126,6 +126,10 @@ org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/
 org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	types	0.48153547133138963
 ```
 
+- the patch of Time 1 is https://github.com/rjust/defects4j/blob/master/framework/projects/Time/patches/1.src.patch
+
+Note: The addition and deletion of lines in this patch are reversed. Specifically, the "+" in the real patch is in fact a deletion of a line. "-" in a real patch is in fact adding a line.
+
 - the oracle variables of Time 1 are:
 ```
 buggy	org.joda.time.field.UnsupportedDurationField	227	DEL	durationField
