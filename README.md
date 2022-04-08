@@ -59,6 +59,9 @@ $ defects4j export -p cp.test -o dep
 $ python scripts/checkout_bug.py --bugId <bug ID> --workspace path_to_the_prject
 $ cd path_to_the_prject
 
+# compile
+mvn compile
+
 # get dependencies path to run tests.
 $ mvn dependency:build-classpath -D"mdep.outputFile=dep"
 ```
