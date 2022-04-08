@@ -120,7 +120,7 @@ java -jar artifacts/IsoVar.jar --phase analyze --project_name Time --ID 1 --depe
 
 # result analyze
 
-- The top 10 variables with suspicious values are:
+- The top 5 variables with suspicious values are:
 ```
 org.joda.time.field.UnsupportedDurationField	compareTo(Lorg/joda/time/DurationField;)I	durationField	0.4985170538803757
 org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	i	0.4933133236564228
