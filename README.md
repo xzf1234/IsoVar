@@ -60,7 +60,7 @@ $ python scripts/checkout_bug.py --bugId <bug ID> --workspace path_to_the_prject
 $ cd path_to_the_prject
 
 # get dependencies path to run tests.
-$ mvn dependency:build-classpath -Dmdep.outputFile=dep
+$ mvn dependency:build-classpath -D"mdep.outputFile=dep"
 ```
 2. clone this project, the artifacts is located at [artifacts/IsoVar.jar](artifacts/IsoVar.jar).
 ```
